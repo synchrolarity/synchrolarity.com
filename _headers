@@ -1,0 +1,8 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Referrer-Policy: no-referrer-when-downgrade
+  X-Content-Type-Options: nosniff
+  Expect-CT: max-age=0
+  Content-Security-Policy: default-src 'self' https:; script-src 'self' https://ajax.cloudflare.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src https:; font-src https:
